@@ -1,13 +1,13 @@
-export class EmptyModel {
+export class Product {
   id: number;
 
   name: string | null;
 
-  url: string | null;
+  image: string | null;
 
   constructor() {
     this.id = 0;
     this.name = null;
-    this.url = null;
+    this.image = null;
   }
 }
